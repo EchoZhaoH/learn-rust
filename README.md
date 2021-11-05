@@ -42,3 +42,5 @@ fn main() {
 // x -> 5
 ```
 其中要注意最后一行表达式不能带分号
+
+### 理解 Ownership/Reference/Borrowing
