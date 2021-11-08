@@ -44,3 +44,7 @@ fn main() {
 其中要注意最后一行表达式不能带分号
 
 ### 理解 Ownership/Reference/Borrowing
+
+### 理解 mod
+
+一个 rust 项目就是一个 crate, 一个 crate 可以有多个 mod， 相当于一棵树，而 bin 和 src 是两个不同的 crate ，包括 examples 或者 tests 下面要用到 src 里面的东西都需要显示的定义 mod 把对应的接口导出到 lib.rs 然后才能在这些目录使用。
